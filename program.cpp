@@ -59,7 +59,7 @@ int main(){
     
     if (name == "user1234" && ID == "102D" && password == defaultPassword ){
         cout<<"Account accessed"<<endl;
-        cout<<"\ndo you want to Add MOney or view money \n press '1' to add money \n press '2' to view account \n press '3' to update password"<<endl;
+        cout<<"\ndo you want to Add Money or view money \n press '1' to add money \n press '2' to view account \n press '3' to update password"<<endl;
         cin>>userCase;
         switch(userCase){
             case 1:
